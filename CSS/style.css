@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+header ul li{
+    display: inline;
+    list-style: none;
+    margin: 0 10px;
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: #4CAF4F;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+
+main{
+    background-color: #abbed11a;
+    height: calc(100vh - 78px);
+    width: 100%;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.content h1{
+    font-size: 50px;
+    color: #455A64;
+}
+.content h1 span{
+    color: #4CAF4F;
+}
+.content p{
+    font-size: 10px;
+    color: #717171;
+    padding: 15px 0;
+}
+.content .pcimg{
+    width: 30%;
+}
+.content img{
+    width: 100%;
+}
+main .pages{
+    display: flex;
+
+}
+main .point{
+    position: relative;
+    bottom: 40px;
+    left: 50%;
+    background-color: #717171;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+main #first{
+    background-color: #4CAF4F;
+}
+.Home{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.Home h1{
+    color: #4D4D4D;
+}
+.Home p{
+    color: #717171;
+    font-size: 10px;
+}
+
+.Home .clients{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.members{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 30px 0;
+}
+.members h3{
+    color: #4D4D4D;
+}
+/*--------------*/
+.Home .block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 40px 0;
+}
+.Home .block .blockimg{
+    width: 100%;
+}
+.Home .block img{
+    width: 400px;
+}
+.Home .block p{
+    padding: 20px 0;
+}
+.Home .block button{
+    padding: 10px 20px;
+    background-color: #4CAF4F;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+.Home .block .blockcontent img{
+    width: 5%;
+}
+.Home .block .blockcontent {
+    padding: 0 30px;
+}
+.Home .block .blockcontent span{
+    color: #4CAF4F;
+    font-weight: bold;
+
+}
+.Home .block .blockcontent .icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#customers{
+    background-color: #F5F7FA;
+
+}
+#customers .blockimg img {
+    width: 300px;
+}
+
+/*-------------*/
+.achievements{
+    background-color: #F5F7FA;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: left;
+}
+
+.achievements span{
+    color: #4CAF4F;
+}
+
+.achievements .row .box{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+.achievements .row .static{
+    margin-left: 10px;
+}
+.achievements .row .static h3{
+    color: #4D4D4D;
+
+}
+.achievements .counts{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/*----------*/
+#element{
+}
+.boxcontent{
+    position: relative;
+    border: 1px solid #dfdfdf;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    margin: -50px auto 0 auto;
+    height: 40%;
+    z-index: 100;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #c1bebeac;
+}
+.boxcontent p{
+    font-size: 13px;
+    font-weight: bold;
+
+}
+.boxcontent span{
+    padding-top: 30px;
+    color: #4CAF4F;
+    font-weight: bold;
+}
+.Home #text{
+    width: 70%;
+    margin: auto;
+    padding: 20px 0;
+}
+.Home .body{
+    padding: 50px 0 0 0;
+}
+/*----------------*/
+
+.sectionfooter{
+    width: 100%;
+    margin: 0px auto;
+    padding: 40px 0;
+    background-color: #F5F7FA;
+}
+.sectionfooter h1{
+    font-size: 60px;
+    width: 80%;
+    margin: auto;
+}
+.sectionfooter button{
+    padding: 10px 20px;
+    background-color: #4CAF4F;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    margin-top: 30px;
+}
